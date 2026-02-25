@@ -1,0 +1,63 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# TP (ThinkPHP)
+/runtime/
+/vendor/
+/.env
+/.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.python-version
+.venv/
+venv/
+env/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Vue / Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.npm/
+.yarn/
+.nuxt/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+out/
+target/
+
+# Skills / AI tooling local artifacts
+skills/
+.codex/
+.opencode/
